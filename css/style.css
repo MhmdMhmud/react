@@ -1,0 +1,32 @@
+:root {
+  --main1-color: #24353f;
+  --main2-color: #17a2b8;
+}
+.box {
+  width: 60%;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1 {
+  color: var(--main2-color);
+}
+body,
+.container,
+input {
+  background-color: var(--main1-color) !important;
+  font-family: sans-serif;
+  color: #fff !important;
+}
+input::placeholder {
+  color: #fff !important;
+  opacity: 0.5 !important;
+}
+.parent {
+  height: 100vh;
+}
+.fixed-top {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+a.smart {
+  text-decoration: none;
+}
